@@ -1,0 +1,165 @@
+*,
+::after,
+::before {
+    box-sizing: border-box;
+    vertical-align: baseline;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+}
+
+body {
+    background-color: bisque;
+    
+    background-image: url('https://img.freepik.com/free-photo/vintage-crumpled-paper-textured-background_53876-103940.jpg?w=1800&t=st=1684247677~exp=1684248277~hmac=2dc198d8cec1cd89a2194ae046bd114c3d21cbf2d3b8b6e09deabc25268f2cfa');
+    background-repeat: no-repeat; /* Optional: Specify if the image should repeat */
+    background-size: cover; /* Optional: Adjust the size of the background image */
+    background-position: bottom right;
+}
+
+.redText {
+	color:rgb(177, 19, 19);
+  text-transform: uppercase;
+}
+
+.greenText {
+	color:rgb(26, 129, 26);
+  text-transform: uppercase;
+}
+
+p {
+    font-family: serif; /* Applies a Serif font */
+    line-height: 1,5; /* Increases the spacing between lines */
+    font-size: 16px; /* Sets a basic size for easy readability */
+    color: #333333; /* Uses a dark color, #333333 is a commonly used dark gray */
+  }
+  
+  a {
+    color: #0066cc; /* Sets the link color, #0066cc is a commonly used blue color */
+    text-decoration: underline; /* Adds an underline to the link */
+  }
+  
+  a:hover {
+    color: #ff0000; /* Changes the link color on hover, #ff0000 is a commonly used red color */
+    text-decoration: none; /* Removes the underline on hover */
+  }
+  /* Visited state */
+a:visited {
+    color: purple; /* Sets the link color for visited links */
+  }
+  body {
+    max-width: 90%; /* Sets the maximum width of the body to 90% */
+    margin: 0 auto; /* Centers the body horizontally by setting left and right margins to auto */
+  }
+  .q {
+    max-width: 50%; /* Sets the maximum width of the blockquote to 50% */
+    margin-left: auto; /* Centers the blockquote horizontally by setting the left margin to auto */
+    margin-right: auto; /* Centers the blockquote horizontally by setting the right margin to auto */
+    font-size: 110%; /* Increase text size to 160% */
+    background-color: #f2f2f2; /* Greyish background color */
+    border-left: 2px solid rgb(91, 89, 89); /* 3px Firebrick border on the left */
+    padding: 0 0 0 5px; /* Add desired px space between border and text */
+    margin: 80px 0; /* Add 80px space above and below the quotes */
+    font-style: italic;
+  }
+
+  q.villagerQ
+  {
+    max-width: 50%; /* Sets the maximum width of the blockquote to 50% */
+    margin-left: auto; /* Centers the blockquote horizontally by setting the left margin to auto */
+    margin-right: auto; /* Centers the blockquote horizontally by setting the right margin to auto */
+    font-size: 110%; /* Increase text size to 160% */
+    background-color: #f2f2f2; /* Greyish background color */
+    border-left: 2px solid rgb(234, 160, 11); /* 3px Firebrick border on the left */
+    padding: 0 0 0 5px; /* Add desired px space between border and text */
+    margin: 80px 0; /* Add 80px space above and below the quotes */
+    font-style: italic;
+  }
+
+  q.farmerQ
+  {
+    max-width: 50%; /* Sets the maximum width of the blockquote to 50% */
+    margin-left: auto; /* Centers the blockquote horizontally by setting the left margin to auto */
+    margin-right: auto; /* Centers the blockquote horizontally by setting the right margin to auto */
+    font-size: 110%; /* Increase text size to 160% */
+    background-color: #f2f2f2; /* Greyish background color */
+    border-left: 2px solid rgb(138, 11, 131); /* 3px Firebrick border on the left */
+    padding: 0 0 0 5px; /* Add desired px space between border and text */
+    margin: 80px 0; /* Add 80px space above and below the quotes */
+    font-style: italic;
+  }
+  
+  blockquote
+  {
+    max-width: 50%; /* Sets the maximum width of the blockquote to 50% */
+    margin-left: auto; /* Centers the blockquote horizontally by setting the left margin to auto */
+    margin-right: auto; /* Centers the blockquote horizontally by setting the right margin to auto */
+    font-size: 160%; /* Increase text size to 160% */
+    background-color: #f2f2f2; /* Greyish background color */
+    border-left: 3px solid firebrick; /* 3px Firebrick border on the left */
+    padding: 0 0 0 30px; /* Add 30px space between border and text */
+    margin: 80px 0; /* Add 80px space above and below the quotes */
+    font-style: italic;
+  }
+
+  table
+  {
+      margin-top: 20px;    /* Set top margin to 20px */
+      margin-bottom: 20px; /* Set bottom margin to 20px */
+      margin-left: 20px;   /* Set left margin to 10px */
+      margin-right: 20px;  /* Set right margin to 10px */
+      padding: 30px;
+  }
+
+  header > h1 {
+    background-color: rgb(234, 234, 32);
+  }
+
+  table tr:nth-child(even) {
+    background-color: #f2f2f2; /* Grey background for even rows */
+  }
+  
+  table tr:nth-child(odd) {
+    background-color: #ffffff; /* White background for odd rows */
+  }
+
+  p:first-of-type {
+    font-weight: bold;
+  }
+  
+  figcaption {
+  margin: 0 auto;
+}
+  
+.onetype {
+  background-image: url('/bien.png');
+  background-repeat: no-repeat;
+  padding-right: 30px; /* Adjust as needed */
+}
+
+.twotype {
+  background-image: url('/mal.png');
+  background-repeat: no-repeat;
+  padding-right: 30px; /* Adjust as needed */
+}
+
+.threetype {
+  background-image: url('/chat.png');
+  background-repeat: no-repeat;
+  padding-right: 30px; /* Adjust as needed */
+}
+
+ul 
+{
+  padding: 5%;
+}
+
+li{
+  padding: 20px;
+  padding-left: 50px;
+  list-style-type: none;
+}
+  
+img {
+  max-width: 50vw;
+}
