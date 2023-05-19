@@ -98,17 +98,17 @@ a:visited {
     background-color: #f2f2f2; /* Greyish background color */
     border-left: 3px solid firebrick; /* 3px Firebrick border on the left */
     padding: 0 0 0 30px; /* Add 30px space between border and text */
-    margin: 80px 0; /* Add 80px space above and below the quotes */
+    margin: 0px 0; /* Add 80px space above and below the quotes */
     font-style: italic;
   }
 
   table
   {
-      margin-top: 20px;    /* Set top margin to 20px */
+      margin-top: px;    /* Set top margin to 20px */
       margin-bottom: 20px; /* Set bottom margin to 20px */
       margin-left: 20px;   /* Set left margin to 10px */
       margin-right: 20px;  /* Set right margin to 10px */
-      padding: 30px;
+      padding:
   }
 
   header > h1 {
@@ -123,9 +123,7 @@ a:visited {
     background-color: #ffffff; /* White background for odd rows */
   }
 
-  p:first-of-type {
-    font-weight: bold;
-  }
+ 
   
   figcaption {
   margin: 0 auto;
@@ -162,4 +160,68 @@ li{
   
 img {
   max-width: 50vw;
+}
+
+.intro_types_image
+{
+  display: flex;
+  flex-direction:row;
+}
+
+.intro_types_image > *
+{
+  max-width: 50%;
+}
+
+.long_section
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.long_section > *
+{
+}
+
+img.old_farmer_pic
+{
+max-width: 70vw;
+height: auto;
+}
+
+img.man_on_fire
+{
+max-width: 40vw;
+height: auto;
+align-self: center;
+margin: 0 auto;
+}
+
+.long_section p
+{
+  padding-left: 5vw;
+  padding-right: 5vw;
+}
+
+header, blockquote, .date_and_name
+{
+  text-align: center;
+  margin: 0 auto;
+}
+
+p.date_and_name
+{
+  padding: 20px;
+}
+
+h2
+{
+  font-size: 30px;
+  color:firebrick;
+}
+
+h2
+{
+  padding-top: 5vw;
 }
